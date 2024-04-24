@@ -35,8 +35,22 @@ const Articles: React.FC = () => {
       publicationDate: "2024-04-23",
     },
     {
-      title: "Article Title 2",
-      excerpt: "Another article summary to showcase your writing skills.",
+      title: "Indicadores Comuns para a Identificação de Dívida Técnica em código",
+      excerpt: "Alguns indicadores comuns para identificar dívida técnica em código",
+      link: "https://medium.com/@gustavolvma/indicadores-comuns-para-a-identifica%C3%A7%C3%A3o-de-d%C3%ADvida-t%C3%A9cnica-3208a92b87f7",
+      publicationDate: "2024-04-24",
+    },
+    {
+      title: "Melhores práticas para a prevenção de débito técnico desde o início do projeto",
+      excerpt: "Um pequeno artigo falando das melhores práticas para previnir Débito técnico de codigo",
+      link: "https://medium.com/@gustavolvma/melhores-pr%C3%A1ticas-para-a-preven%C3%A7%C3%A3o-de-d%C3%A9bito-t%C3%A9cnico-desde-o-in%C3%ADcio-do-projeto-d868bbbafa5e",
+      publicationDate: "2024-04-24",
+    },
+    {
+      title: "Recomendações de Processos e Ferramentas de Apoio para Gerenciamento de Débito Técnico",
+      excerpt: "Algumas Ferramentas para genrenciamento de débito técnico",
+      link: "https://medium.com/@gustavolvma/recomenda%C3%A7%C3%B5es-de-processos-e-ferramentas-de-apoio-para-gerenciamento-de-d%C3%A9bito-t%C3%A9cnico-837d465752aa",
+      publicationDate: "2024-04-24",
     },
   ];
 
