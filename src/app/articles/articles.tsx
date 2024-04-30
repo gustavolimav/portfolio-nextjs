@@ -4,9 +4,9 @@ import React from 'react';
 
 interface ArticleProps {
   title: string;
-  excerpt: string;
-  link?: string; // Optional link to the article (if applicable)
-  publicationDate?: string; // Optional publication date
+  excerpt?: string;
+  link: string;
+  publicationDate: string;
 }
 
 const Article: React.FC<ArticleProps> = ({ title, excerpt, link, publicationDate }) => {
@@ -51,6 +51,12 @@ const Articles: React.FC = () => {
       excerpt: "Algumas Ferramentas para genrenciamento de débito técnico",
       link: "https://medium.com/@gustavolvma/recomenda%C3%A7%C3%B5es-de-processos-e-ferramentas-de-apoio-para-gerenciamento-de-d%C3%A9bito-t%C3%A9cnico-837d465752aa",
       publicationDate: "2024-04-24",
+    },
+    {
+      title: "10 Melhores Práticas para Escrever APIs Node.js Como um Profissional",
+      excerpt: "Recomendações para escrever APIs Node.js de qualidade",
+      link: "https://medium.com/@gustavolvma/10-melhores-pr%C3%A1ticas-para-escrever-apis-node-js-como-um-profissional-0b35e1030272",
+      publicationDate: "2024-04-29",
     },
   ];
 
